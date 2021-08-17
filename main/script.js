@@ -30,4 +30,3 @@ while (keepPlaying) {
   alert(`wins: ${wins}\n\nlosses: ${losses}\n\nties: ${ties}`);
   keepPlaying = confirm("do you want to play again");
 }
-// rock beats paper, paper beats rock scissors beats paper.
