@@ -1,11 +1,18 @@
-// TODO: caputure user choice
+// caputure user choice
     //user can pick r,p, or s
+    const userChoice = prompt('what do you choose?r, p or s?')
+    console.log(userChoice);
     //edge case:  user puts in capital letters
     //edge case: user puts in invalid letter
     //edge case: user cancels out of prompt
 
-// TODO: generate computer choice
+// generate computer choice   
+ const choices = ["r","p","s"]
     //3 possible chioces rock paper and scissors
+    const randomChoices = Math.floor(Math.random()*3)
+    const computerChoice = choices[randomChoices]
+
+console.log(computerChoice);
     // should be randomized each time
 
 // TODO: compare choices
