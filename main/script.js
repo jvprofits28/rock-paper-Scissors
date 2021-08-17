@@ -19,14 +19,18 @@ while (keepPlaying) {
   // compare choices
   if (userChoice === computerChoice) {
     alert("is a tie!!");
+    ties++;
   } else if (userChoice === "s" && computerChoice === "p") {
     alert("its a win!");
+    wins++;
   } else if (userChoice === "p" && computerChoice === "r") {
     alert("its a win!");
+    wins++;
   } else if (userChoice === "r" && computerChoice === "s") {
-    wi;
+    wins++;
   } else {
     console.log("its a loss");
+    losses++;
   }
 }
 // rock beats paper, paper beats rock scissors beats paper.
