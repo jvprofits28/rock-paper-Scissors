@@ -5,7 +5,7 @@ const keepPlaying = true;
 // caputure user choice
 //user can pick r,p, or s
 while (keepPlaying) {
-  const userChoice = prompt("what do you choose?r, p or s?");
+  const userChoice = prompt("what do you choose?r, p or s?").toLowerCase;
   console.log(userChoice);
 
   // generate computer choice
